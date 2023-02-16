@@ -1,0 +1,136 @@
+https://www.appbrewery.co/p/web-development-course-resources
+.................................................
+
+Make a favicon and apply it in the title of u r website
+favicon.cc ->>>
+how to apply 
+in title section ->>>
+ <link rel="icon" href="./css/prajwal favicon.ico?v=2"> ->>>
+ ?v=2 ->>> used to to work in another version 
+
+ ................................................
+
+ pesticides chrome extension ->>>
+ to view the outline of the div in a document.
+
+.................................................
+
+Div ->>>
+used to divide content on web page in seperate containers.
+
+.................................................
+
+colorhunt.co
+->>> find best color schems.
+
+.................................................
+display block ->>> element can not be added in tht line i.e it blocks the another element whcih comes in its scope.
+ex.  <p>,<h1>
+
+inline ->>>elements can be added in from of one another
+ex. span images anchors
+inline block->>>
+none->>> it removes that element from web pages without deleting the code.
+
+
+visibility: hidden ->>> it hides that element in the web pages but not deletes and doesnt change its position.
+
+.................................................
+position->>>
+static -> it keeps default html flow
+relative ->to change the default position withount changing the other elemensts from their position with respect to its natural position.
+absolute -> it changes the position of the element with respect to the parent elements.
+fixed -> it will fix that element on the web page and if we scroll the web pages its position will be same as it was before.
+
+---------------------------------------------------
+margin : 0 auto 0 auto;
+another way to center the element in the document.
+---------------------------------------------------
+for the fonts->>> web safe fonts, cssfontstack.com,fonts.google.com
+to embed the fonts in our site so that anyone can see these font from their local server->>>
+go to fonts.google.com->>> add fonts which we have to use the copy link and paste it in the head section to preconnect it.
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+and then mention the font family from that website where we want.
+
+-------------------------------------------------------
+to generate the dummy text->>>
+loremipsumgenerator.com
+-------------------------------------------------------
+to crop profile in circular->>>
+https://crop-circle.imageonline.co/
+-------------------------------------------------------
+to find the icons
+https://www.flaticon.com/
+for giphy
+gipfy.com
+-------------------------------------------------------
+font size=16px=100%=1em;
+px is a static and % or em is a dynamic.
+so that % or em will gets affected by the parent sizes or settings so to get out from this use rem.
+
+100% means 16px so for 90 px to make that size dynamic it will be 562.5%  
+1em= 16px
+-------------------------------------------------------
+<em> tag emphasized text used to do italic the text.
+-------------------------------------------------------
+float ->>> property used to float all the text around that image 
+clear ->>> property is used to prevent the effect of that float on below tags such as p or h2.
+clear:left;
+-------------------------------------------------------
+to remove the double border->>
+border bottom=none;
+-------------------------------------------------------
+to generate button->>>
+css3buttongenerator.com
+-------------------------------------------------------
+frontend challenges
+https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3
+-------------------------------------------------------
+bootstrap made by twitter but now it is open source.
+-------------------------------------------------------
+after codeplay we can use codeplay.com
+it allows us to add the functionalities of various other frameworks to be used like the bootstrap.
+
+-------------------------------------------------------
+bootstrap--->>>
+dribbble.com->>> for finding collection of website portfolios
+to add the small icons in the button use->>>>
+fontawesome.com
+to implement this firstly we have to add the fontawesome in aur site like bootstrap.
+<script src="https://kit.fontawesome.com/22c14bb2ee.js" crossorigin="anonymous"></script>
+-------------------------------------------------------
+gride->>> adding responsive coloums
+-------------------------------------------------------
+to make the image circular use ->>>border radius:100%;
+-------------------------------------------------------
+carousel->>>
+slideshow in our website.
+-------------------------------------------------------
+bootsnippet.com->>>
+to find ready build snippets for the bootstrap.
+------------------------------------------------------
+card->>> bootstrap component 
+for the making of pricing like structres
+-------------------------------------------------------
+z-index->>>
+first position should be absolute 
+then we can change the z-index propertyy to make closer to user it will be 1 and to make it far distance -1;
+-------------------------------------------------------
+media query breakpoint->>>
+to make all the components responsive in costumized manner;
+@media(max-width:1028px)
+{
+    #title{
+        text-align: center;
+    }
+
+    .phone_img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+if the phone img and the title tages which are targeted which comes under the size which is mentioned it will execute the conditions which are used.
+-------------------------------------------------------
+
